@@ -1,4 +1,4 @@
-FROM rocker/verse:3.6.0
+FROM rocker/latest
 MAINTAINER support@civisanalytics.com
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get update -y --no-install-recommends && \
